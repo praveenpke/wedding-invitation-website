@@ -16,7 +16,7 @@ head {
     font-family: 'Pacifico', cursive;
     position: relative;
     font-size: 1.1rem;
-    color: #BF9F9F;
+    color: rgb(216, 204, 204);;
     display: inline-flex;
     width: 100%;
 }
@@ -35,14 +35,14 @@ head {
 }
 
 .menu-container li a {
-    color: #BF9F9F;
+    color: rgb(216, 204, 204);;
     text-decoration: none;
 }
 
 .heading-container {
     font-family: 'Parisienne', cursive;
     position: relative;
-    color: #BF9F9F;
+    color: rgb(216, 204, 204);;
     text-align: center;
     height: 100vh;
     padding-right: 5vw;
@@ -73,7 +73,7 @@ a:hover {
 .heading {
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: #BF9F9F;
+    color: rgb(216, 204, 204);;
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -86,25 +86,24 @@ a:hover {
     background-size: cover;
     width: 100%;
 }
-
-.our-story-text {
-    font-size: 25px;
-    color: #BF9F9F;
-    font-family: 'Parisienne', cursive;
-    position: absolute;
-    right: 2vw;
-    margin-left: 1vw;
-    margin-top: 20vh;
-    height: 60vh;
-    width: 60vw;
+.our-story-box{
+    margin-top: 4rem;
 }
-
+.our-story-text {
+    padding: 0 2rem;
+    text-align: justify;
+    font-size: 25px;
+    color: rgb(216, 204, 204);
+    font-family: 'Parisienne', cursive;
+}
+.our-story-image{
+    display: flex;
+    align-content: flex-start;
+}
 .our-story-image img {
-    position: absolute;
-    margin-top: 20vh;
-    left: -10vw;
-    height: 60vh;
-    width: 60vw;
+    margin-top: 1rem;
+    width: 90%;
+    height: 80%;
 }
 
 @media(max-width:600px) {
@@ -116,27 +115,13 @@ a:hover {
     }
     .our-story-text {
         font-size: 15px;
-        color: #BF9F9F;
         font-family: 'Parisienne', cursive;
-        position: absolute;
-        right: 7vw;
-        margin-left: 1vw;
-        margin-top: 15vh;
-        height: 50vh;
-        width: 50vw;
     }
     .heading{
         font-size: 2rem;
     }
     .heading-container {
         padding-top: 30vh;
-    }
-    .our-story-image img {
-        position: absolute;
-        margin-top: 20vh;
-        left: -10vw;
-        height: 40vh;
-        width: 60vw;
     }
     .list-item{
         font-size: 0.7rem;
@@ -153,22 +138,6 @@ a:hover {
 @media(min-width:601px) and (max-width:1024px) {
     .our-story-text {
         font-size: 18px;
-        color: #BF9F9F;
-        font-family: 'Parisienne', cursive;
-        position: absolute;
-        right: 7vw;
-        margin-left: 1vw;
-        margin-top: 15vh;
-        height: 50vh;
-        width: 50vw;
-    }
-
-    .our-story-image img {
-        position: absolute;
-        margin-top: 20vh;
-        left: -10vw;
-        height: 40vh;
-        width: 60vw;
     }
 }
 
@@ -192,7 +161,7 @@ a:hover {
 
 .our-venue-text {
     font-size: 1.5rem;
-    color: #BF9F9F;
+    color: rgb(216, 204, 204);
     text-align: center;
     font-family: 'Tomorrow';
     margin-top: 10vh;
@@ -215,7 +184,7 @@ a:hover {
 .venue-heading {
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: #BF9F9F;
+    color: rgb(216, 204, 204);;
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -263,15 +232,15 @@ a:hover {
 }
 
 .travel-image img {
-    margin-top: -5rem;
-    height: 30vh;
-    width: 30vw;
+    margin-top: 0rem;
+    height: 100%;
+    width: 100%;
     border: 0.2rem dotted rgb(219, 173, 86);
 }
 
 .our-travel-text {
     font-size: 1.2rem;
-    color: #BF9F9F;
+    color: rgb(216, 204, 204);;
     text-align: justify;
     font-family: 'Tomorrow';
 }
@@ -293,7 +262,7 @@ a:hover {
 .travel-heading {
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: #BF9F9F;
+    color: rgb(216, 204, 204);;
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -315,10 +284,7 @@ a:hover {
     }
 
     .travel-image img {
-        margin-top: -1rem;
-        height: 20vh;
-        width: 20vw;
-        border: 0.2rem dotted rgb(219, 173, 86);
+        
     }
 }
 @media(min-width:601px) and (max-width:1024px) {
@@ -351,7 +317,7 @@ a:hover {
 .guest-heading {
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: #BF9F9F;
+    color: rgb(216, 204, 204);;
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -469,7 +435,7 @@ a:hover {
 .registry-heading {
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: #BF9F9F;
+    color: rgb(216, 204, 204);;
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -500,8 +466,9 @@ a:hover {
 
 @media(max-width:600px) {
     .registry-image img {
+        margin-top: 40vh;
         left: 10vw;
-        height: 18vh;
+        height: 10vh;
         width: 40vw;
     }
 
