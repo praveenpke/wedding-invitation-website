@@ -113,6 +113,9 @@ a:hover {
         background-size: contain;
         width: 100%;
     }
+    #our-story{
+        background-position: 10% 10%;
+    }
     .our-story-text {
         font-size: 15px;
         font-family: 'Parisienne', cursive;
@@ -204,6 +207,9 @@ a:hover {
     .venue-heading {
         font-size: 2rem;
     }
+    #venu{
+        background-position: 10% 10%;
+    }
 }
 @media(min-width:601px) and (max-width:1024px) {
     .venue-text-head {
@@ -285,6 +291,9 @@ a:hover {
 
     .travel-image img {
         margin-top: 0rem;
+    }
+    #travel{
+        background-position: 10% 10%;
     }
 }
 @media(min-width:601px) and (max-width:1024px) {
@@ -382,6 +391,9 @@ a:hover {
 }
 
 @media(max-width:600px) {
+    #guest-book{
+        background-position: 10% 10%;
+    }
     .guest-heading {
         font-size: 2rem;
     }
@@ -465,6 +477,9 @@ a:hover {
 }
 
 @media(max-width:600px) {
+    #registry{
+        background-position: 10% 10%;
+    }
     .registry-image img {
         margin-top: 40vh;
         left: 10vw;
