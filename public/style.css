@@ -6,7 +6,7 @@ head {
 }
 
 .bg-image {
-    background-image: url("./images/decorated3.jpg");
+    background-image: url("./img/1.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -16,7 +16,7 @@ head {
     font-family: 'Pacifico', cursive;
     position: relative;
     font-size: 1.1rem;
-    color: rgb(216, 204, 204);;
+    color: rgb(216, 195, 195);
     display: inline-flex;
     width: 100%;
 }
@@ -35,24 +35,21 @@ head {
 }
 
 .menu-container li a {
-    color: rgb(216, 204, 204);;
+    color: rgb(216, 195, 195);
     text-decoration: none;
 }
 
 .heading-container {
     font-family: 'Parisienne', cursive;
     position: relative;
-    color: rgb(216, 204, 204);;
+    color: rgb(216, 195, 195);
     text-align: center;
     height: 100vh;
     padding-right: 5vw;
     padding-top: 20vh;
 }
 
-#block {
-    height: 1vh;
-    background-color: #a18c6f;
-}
+
 
 .heading-text-large {
     font-size: 5rem;
@@ -64,6 +61,7 @@ head {
 
 .container-height {
     height: 110vh;
+    padding-top: 15vh;
 }
 
 a:hover {
@@ -73,7 +71,7 @@ a:hover {
 .heading {
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: rgb(216, 204, 204);;
+    color: rgb(88, 87, 87);
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -81,7 +79,7 @@ a:hover {
 }
 
 #our-story {
-    background-image: url("./images/decorated5.jpg");
+    background-image: url("./img/2.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -93,7 +91,7 @@ a:hover {
     padding: 0 2rem;
     text-align: justify;
     font-size: 25px;
-    color: rgb(216, 204, 204);
+    color: rgb(88, 87, 87);
     font-family: 'Parisienne', cursive;
 }
 .our-story-image{
@@ -107,17 +105,14 @@ a:hover {
 }
 
 @media(max-width:600px) {
-    .bg-image {
-        background-image: url("./images/decorated3.jpg");
-        background-position: 10% 10%;
+    /* .bg-image {
         background-size: contain;
         width: 100%;
     }
     #our-story{
-        background-position: 10% 10%;
         background-size: contain;
         width: 100%;
-    }
+    } */
     .our-story-text {
         font-size: 15px;
         font-family: 'Parisienne', cursive;
@@ -158,7 +153,7 @@ a:hover {
 
 
 #venue {
-    background: url("./images/venue0.jpg");
+    background: url("./img/3.jpg");
     background-position: center;
     background-size: cover;
     width: 100vw;
@@ -166,20 +161,20 @@ a:hover {
 
 .our-venue-text {
     font-size: 1.5rem;
-    color: rgb(216, 204, 204);
+    color: rgb(88, 87, 87);
     text-align: center;
     font-family: 'Tomorrow';
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
 }
 
 .venue-icon {
-    color: rgb(219, 173, 86);
+    color: rgb(185, 155, 155);
 }
 
 .venue-text-head {
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: rgb(219, 173, 86);
+    color: rgb(29, 28, 28);
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -187,9 +182,10 @@ a:hover {
 }
 
 .venue-heading {
-    padding-top: 2vh;
+    font-weight: bold;
+    padding-top: 10vh;
     font-family: 'Parisienne', cursive;
-    color: rgb(216, 204, 204);;
+    color: rgb(88, 87, 87);
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -210,9 +206,9 @@ a:hover {
         font-size: 2rem;
     }
     #venu{
-        background-position: 10% 10%;
+        /* background-position: 10% 10%;
         background-size: contain;
-        width: 100%;
+        width: 100%; */
     }
 }
 @media(min-width:601px) and (max-width:1024px) {
@@ -235,7 +231,7 @@ a:hover {
 
 
 #travel {
-    background-image: url("./images/travel.jpg");
+    background-image: url("./img/4.jpg");
     background-position: center;
     height: 110vh;
     background-size: cover;
@@ -245,24 +241,24 @@ a:hover {
     margin-top: -5rem;
     height: 100%;
     width: 100%;
-    border: 0.2rem dotted rgb(219, 173, 86);
+    border: 0.2rem dotted rgb(212, 179, 204);
 }
 
 .our-travel-text {
     font-size: 1.2rem;
-    color: rgb(216, 204, 204);;
+    color: rgb(88, 87, 87);
     text-align: justify;
     font-family: 'Tomorrow';
 }
 
 .travel-icon {
-    color: rgb(219, 173, 86);
+    color: rgb(29, 28, 28);
 }
 
 .travel-text-head {
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: rgb(219, 173, 86);
+    color: rgb(29, 28, 28);
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -272,7 +268,7 @@ a:hover {
 .travel-heading {
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: rgb(216, 204, 204);;
+    color: rgb(88, 87, 87);
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -297,9 +293,9 @@ a:hover {
         margin-top: 0rem;
     }
     #travel{
-        background-position: 10% 10%;
+        /* background-position: 10% 10%;
         background-size: contain;
-        width: 100%;
+        width: 100%; */
     }
 }
 @media(min-width:601px) and (max-width:1024px) {
@@ -321,7 +317,7 @@ a:hover {
         margin-top: -1rem;
         height: 20vh;
         width: 20vw;
-        border: 0.2rem dotted rgb(219, 173, 86);
+        border: 0.2rem dotted rgb(29, 28, 28);
     }
 }
 
@@ -332,7 +328,7 @@ a:hover {
 .guest-heading {
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: rgb(216, 204, 204);;
+    color: rgb(88, 87, 87);
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -340,57 +336,58 @@ a:hover {
 }
 
 #guest-book {
-    background-image: url("./images/guest5.jpg");
+    background-image: url("./img/5.jpg");
     background-position: center;
     height: 100vh;
     background-size: cover;
 }
 
 .guest-form {
-    margin-top: 3rem;
+    margin: auto;
+    /* margin-top: 3rem;
     margin-right: 10rem;
     right: 0;
-    position: absolute;
+    position: absolute; */
     width: 50vw;
 }
 
 .label-text {
-    color: rgb(219, 173, 86);
+    color: rgb(29, 28, 28);
     font-weight: 900;
 }
 
 .submit-btn {
     margin-top: 2rem;
     font-weight: bold;
-    color: black;
-    background-color: rgb(219, 173, 86);
+    color: rgb(54, 53, 53);
+    background-color: rgb(216, 113, 113);
     border: none;
 }
 
 .submit-btn:hover {
     font-weight: bold;
     color: black;
-    background-color: rgb(219, 173, 86);
+    background-color: rgb(29, 28, 28);
     border: none;
 }
 
 .submit-btn:active {
     font-weight: bold;
     color: black;
-    background-color: rgb(219, 173, 86);
+    background-color: rgb(29, 28, 28);
     border: none;
 }
 
 .form-input {
-    color: rgb(236, 217, 217);
+    color: rgb(88, 87, 87);
     font-weight: bold;
     background-color: rgba(214, 196, 196, 0.404);
     border: none;
 }
 
 .form-input:focus {
-    outline: rgb(236, 217, 217);
-    color: rgb(236, 217, 217);
+    outline: rgb(88, 87, 87);
+    color: rgb(88, 87, 87);
     font-weight: bold;
     background-color: rgba(214, 196, 196, 0.404);
     border: none;
@@ -398,9 +395,9 @@ a:hover {
 
 @media(max-width:600px) {
     #guest-book{
-        background-position: 10% 10%;
+        /* background-position: 10% 10%;
         background-size: contain;
-        width: 100%;
+        width: 100%; */
     }
     .guest-heading {
         font-size: 2rem;
@@ -446,7 +443,7 @@ a:hover {
 
 
 #registry {
-    background-image: url("./images/registry.jpg");
+    background-image: url("./img/6.jpg");
     background-position: center;
     height: 100vh;
     background-size: cover;
@@ -455,7 +452,7 @@ a:hover {
 .registry-heading {
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: rgb(216, 204, 204);;
+    color: rgb(88, 87, 87);
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -486,9 +483,9 @@ a:hover {
 
 @media(max-width:600px) {
     #registry{
-        background-position: 10% 10%;
+        /* background-position: 10% 10%;
         background-size: contain;
-        width: 100%;
+        width: 100%; */
     }
     .registry-image img {
         margin-top: 40vh;
