@@ -53,10 +53,12 @@ head {
 
 
 .heading-text-large {
+    font-weight: bold;
     font-size: 5rem;
 }
 
 .heading-text-small {
+    font-weight: bold;
     font-size: 2rem;
 }
 
