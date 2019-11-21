@@ -2,8 +2,6 @@ const nodemailer = require('nodemailer');
 
 class HandleResponse {
     async send(req, res) {
-        console.log(req.body);
-
         let testAccount = await nodemailer.createTestAccount();
 
         var transporter = nodemailer.createTransport({
