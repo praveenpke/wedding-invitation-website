@@ -6,9 +6,10 @@ head {
 }
 
 .bg-image {
-    background-image: url("./img/1.jpg");
-    background-position: center;
-    background-size: cover;
+    background: url("./img/1.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
     width: 100%;
 }
 
@@ -67,11 +68,10 @@ head {
 a:hover {
     cursor: pointer;
 }
-
-.heading {
+.our-story-heading {
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: rgb(88, 87, 87);
+    color: rgb(14, 13, 13);
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -80,9 +80,11 @@ a:hover {
 
 #our-story {
     background-image: url("./img/2.jpg");
-    background-position: center;
-    background-size: cover;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
     width: 100%;
+    padding-top: 10vh;
 }
 .our-story-box{
     margin-top: 4rem;
@@ -91,7 +93,8 @@ a:hover {
     padding: 0 2rem;
     text-align: justify;
     font-size: 25px;
-    color: rgb(88, 87, 87);
+    color: rgb(15, 15, 15);
+    font-weight: bold;
     font-family: 'Parisienne', cursive;
 }
 .our-story-image{
@@ -105,20 +108,14 @@ a:hover {
 }
 
 @media(max-width:600px) {
-    /* .bg-image {
-        background-size: contain;
-        width: 100%;
-    }
     #our-story{
-        background-size: contain;
-        width: 100%;
-    } */
-    .our-story-text {
-        font-size: 15px;
-        font-family: 'Parisienne', cursive;
+        background-position: 40%; 
     }
-    .heading{
-        font-size: 2rem;
+    .our-story-text {
+        font-size: 18px;
+    }
+    .our-story-heading{
+        font-size: 2.5rem;
     }
     .heading-container {
         padding-top: 30vh;
@@ -154,27 +151,31 @@ a:hover {
 
 #venue {
     background: url("./img/3.jpg");
-    background-position: center;
-    background-size: cover;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
     width: 100vw;
+    height: 120vh;
+    padding-top: 18vh;
 }
 
 .our-venue-text {
     font-size: 1.5rem;
-    color: rgb(88, 87, 87);
+    color: rgb(15, 15, 15);
     text-align: center;
     font-family: 'Tomorrow';
     /* margin-top: 10vh; */
 }
 
 .venue-icon {
-    color: rgb(185, 155, 155);
+    color: rgb(165, 54, 54);
 }
 
 .venue-text-head {
+    font-weight: bold;
     padding-top: 2vh;
     font-family: 'Parisienne', cursive;
-    color: rgb(29, 28, 28);
+    color: rgb(15, 15, 15);
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -185,7 +186,7 @@ a:hover {
     font-weight: bold;
     padding-top: 10vh;
     font-family: 'Parisienne', cursive;
-    color: rgb(88, 87, 87);
+    color: rgb(15, 15, 15);
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
@@ -194,21 +195,20 @@ a:hover {
 
 @media(max-width:600px) {
     .venue-text-head {
-        font-size: 1rem;
+        font-size: 1.1rem;
+        padding-bottom: 5px;
     }
 
     .our-venue-text {
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-top: 2vh;
     }
 
     .venue-heading {
         font-size: 2rem;
     }
-    #venu{
-        /* background-position: 10% 10%;
-        background-size: contain;
-        width: 100%; */
+    #venue{
+        background-position: 15% ; 
     }
 }
 @media(min-width:601px) and (max-width:1024px) {
@@ -232,9 +232,9 @@ a:hover {
 
 #travel {
     background-image: url("./img/4.jpg");
-    background-position: center;
-    height: 110vh;
-    background-size: cover;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 .travel-image img {
@@ -288,14 +288,17 @@ a:hover {
     .travel-heading {
         font-size: 2rem;
     }
-
+    .travel-image{
+        text-align: center;
+        margin-bottom: 10px;
+    }
     .travel-image img {
         margin-top: 0rem;
+        height: 150px;
+        width: 250px;
     }
     #travel{
-        /* background-position: 10% 10%;
-        background-size: contain;
-        width: 100%; */
+        background-position: 40% 10%;
     }
 }
 @media(min-width:601px) and (max-width:1024px) {
@@ -337,9 +340,9 @@ a:hover {
 
 #guest-book {
     background-image: url("./img/5.jpg");
-    background-position: center;
-    height: 100vh;
-    background-size: cover;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 .guest-form {
@@ -381,7 +384,7 @@ a:hover {
 .form-input {
     color: rgb(88, 87, 87);
     font-weight: bold;
-    background-color: rgba(214, 196, 196, 0.404);
+    background-color: rgba(58, 57, 56, 0.349);
     border: none;
 }
 
@@ -409,6 +412,7 @@ a:hover {
 
     .guest-form {
         margin-top: 0rem;
+        width: 70vw;
     }
 
     .submit-btn {
@@ -444,20 +448,21 @@ a:hover {
 
 #registry {
     background-image: url("./img/6.jpg");
-    background-position: center;
-    height: 100vh;
-    background-size: cover;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: 10% center; 
+    text-align: center;
 }
 
 .registry-heading {
-    padding-top: 2vh;
+    padding-top: 3vh;
     font-family: 'Parisienne', cursive;
-    color: rgb(88, 87, 87);
+    color: rgb(15, 15, 15);
     text-decoration: underline;
     text-underline-position: under;
     text-align: center;
     font-size: 3rem;
-    margin-right: 10rem;
+    font-weight: bold;
 }
 
 .registry-image img:hover {
@@ -465,8 +470,6 @@ a:hover {
 }
 
 .registry-image img {
-    position: relative;
-    left: 20vw;
     margin-top: 20vh;
     height: 25vh;
     width: 30vw;
@@ -483,12 +486,10 @@ a:hover {
 
 @media(max-width:600px) {
     #registry{
-        /* background-position: 10% 10%;
-        background-size: contain;
-        width: 100%; */
+        background-position: 10% 10%;
     }
     .registry-image img {
-        margin-top: 40vh;
+        margin-top: 20vh;
         left: 10vw;
         height: 10vh;
         width: 40vw;
