@@ -1,7 +1,8 @@
-const nodemailer = require('nodemailer');
+    const nodemailer = require('nodemailer');
 
 class HandleResponse {
     async send(req, res) {
+        console.log(req);
         let testAccount = await nodemailer.createTestAccount();
 
         var transporter = nodemailer.createTransport({
@@ -15,7 +16,7 @@ class HandleResponse {
             from: 'peterpar1230@gmail.com',
             to: 'naveenmaddukuri@gmail.com',
             subject: `${req.body.username}`,
-            html: `<p>Email: ${req.body.email}</p> <p>Message: ${req.body.message}</p>`
+            html: `<p>Email: ${req.body.email}</p> <p>Message: ${req.body.message} <p>Decision: ${req.body.decision}</p>`
         };
         transporter.sendMail(mailOptions, function (err, info) {
             if(err)
