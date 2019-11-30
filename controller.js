@@ -4,17 +4,18 @@
         async send(req, res) {
             let testAccount = await nodemailer.createTestAccount();
 
-            var transporter = nodemailer.createTransport({
-                host: 'smtp.gmail.com',
-                port: 465,
-                secure: true,
+            // create reusable transporter object using the default SMTP transport
+            let transporter = nodemailer.createTransport({
+                host: "smtp.ethereal.email",
+                port: 587,
+                secure: false, // true for 465, false for other ports
                 auth: {
-                    user: 'peterpar1230@gmail.com',
-                    pass: '1562938007emani'
+                    user: testAccount.user, // generated ethereal user
+                    pass: testAccount.pass // generated ethereal password
                 }
             });
             const mailOptions = {
-                from: 'peterpar1230@gmail.com',
+                from: testAccount.email,
                 to: 'naveenmaddukuri@gmail.com',
                 subject: `${req.body.username}`,
                 html: `<p>Email: ${req.body.email}</p> <p>Message: ${req.body.message} <p>Decision: ${req.body.decision}</p>`
